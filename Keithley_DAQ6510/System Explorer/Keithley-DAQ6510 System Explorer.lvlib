@@ -14,6 +14,7 @@
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
+			<Item Name="Sys_DAQ_Global.vi" Type="VI" URL="../Sys_DAQ_Global.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder"/>
 	</Item>

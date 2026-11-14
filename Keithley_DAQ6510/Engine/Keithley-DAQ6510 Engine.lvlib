@@ -9,6 +9,9 @@
 		<Item Name="Run" Type="Folder"/>
 		<Item Name="Shut Down" Type="Folder"/>
 	</Item>
-	<Item Name="Types" Type="Folder"/>
+	<Item Name="Types" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="RT_ctrl.ctl" Type="VI" URL="../RT_ctrl.ctl"/>
+	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
